@@ -13,14 +13,18 @@ header {
     text-align: center;
 }
 
-.image {
-    text-align: center;
-    margin: 20px 0;
+.image-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
 }
 
-img {
+.image-center img {
     border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    height: auto;
 }
 
 section {
